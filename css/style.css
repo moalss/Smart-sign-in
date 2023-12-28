@@ -1,0 +1,24 @@
+.login{
+    background-image: url(../images/5172658.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.form-control::placeholder {
+    color: rgb(249, 245, 245);
+  
+  }
+section.welcome{
+    background-image: url(../images/419239-PDYOD8-624.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn.btnLogOut{
+    transition: background-color, 0.5s;
+}
+.btn.btnLogOut:hover {
+    background-color: #ffc107 !important;
+
+}
