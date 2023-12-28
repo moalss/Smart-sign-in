@@ -195,7 +195,7 @@ if(btnSingUp!==null){
 
 if(btnLogin!==null){
     btnLogin.addEventListener("click",function (e){
-        welcomeName.innerHTML="inSingUpName.value";
+       
         if(isEmptySingIn()){
             noneToBlock(allLoginValid);}
        if(isMailAndPass(inLoginMail , inLoginPass)){
