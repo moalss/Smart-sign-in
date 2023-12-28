@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <!--Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!--Links css -->
+     <link rel="stylesheet" href="css/style.css">
+      <!--Link icon -->
+      <link rel="icon" href="images/login.svg">
+  </head>
+  <body>
+    <section class="login bg-black vh-100  ">
+        <div class="container w-50 ">
+          <div class="formCont  vh-100  d-flex  justify-content-center align-items-center ">
+
+            <form class="row g-3 needs-validation  d-flex flex-column align-items-center shadow-lg" novalidate>
+             
+                <div class="loginImg col-md-4 ">
+                  <img src="images/Wavy_Gen-01_Single-07.jpg" class="img-fluid rounded-2" alt="">
+                </div>
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltipNameSingUp" class="form-label text-light">Name</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control text-light bg-transparent" id="validationTooltipNameSingUp" aria-describedby="validationTooltipTextPrepend" placeholder="Enter your Name" required>
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltipEmailSingUp" class="form-label text-light">Mail</label>
+                    <div class="input-group has-validation">
+                      <input type="email" class="form-control text-light bg-transparent" id="validationTooltipEmailSingUp" aria-describedby="validationTooltipEmailPrepend" placeholder="Enter your Email" required>
+                    </div>
+                  </div>
+                <div class="col-md-4 position-relative">
+                  <label for="validationTooltipPassSingUp" class="form-label text-light">Password</label>
+                  <input type="password" class="form-control text-light bg-transparent" id="validationTooltipPassSingUp" placeholder="Enter your Password" required>
+                 <p class="text-danger fw-bolder d-none " id="allRequird">all inputs are requierd</p>
+                 <p class="text-danger fw-bolder d-none " id="nameRequird">Name should be minimum 1 characters</p>
+                 <p class="text-danger fw-bolder d-none " id="mailRequird">mail is already registered or not Valid </p>
+                 <p class="text-danger fw-bolder d-none " id="passRequird">password should be minimum 8 characters</p>
+                  </div>
+                
+                <div class="col-12 my-3 d-flex flex-column align-items-center ">
+                  <button class="btn btn-primary btnSingUp" type="submit">sign Up</button>
+                  <p class="text-success fw-bolder my-3  d-none " id="sucssesSingUp">Sucsses <a href="login.html">login</a></p>
+                  <p class="text-light mt-2">You have an account? <a href="login.html"> sign in</a></p>
+                </div>
+               
+              </form>
+            </div>
+            
+            </div>
+          </section>
+          
+          <!--Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <!--Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
